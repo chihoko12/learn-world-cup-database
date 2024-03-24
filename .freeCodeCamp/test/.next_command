@@ -140,3 +140,9 @@ pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
 ./queries.sh
 pg_dump -cC --inserts -U freecodecamp worldcup psql -U > worldcup.sql
 pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
+pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
+psql -U postgres < worldcup.sql
+git remote -v
+git remote set-url origin https://github.com/chihoko12/learn-world-cup-database
+git remote -v
+git push origin main
